@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    background: hsl(222, 100%, 59%);
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    align-items: center;
+}
+a{
+   flex: 0.1;
+   text-decoration: none;
+   color: #000;
+}
+nav{
+    width: 93.7%;
+    padding: 40px;
+    background: #f35353;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+.card{
+    width: 30%;
+    height: 30vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:0px 10px 10px 0px ;
+}
+.card4{
+    width: 95%;
+    height: 30vh;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container{
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.full{
+    width: 80%;
+    height:25vh;
+    background: #023af1;
+    margin: 10px;
+}
+caption{
+    margin: 10px;
+    font-size: 30px;
+}
+table{
+    /* color: white; */
+    border-collapse: collapse;
+    width: 80%;
+}
+th{
+    border-bottom: 1px solid white;
+
+}
+td,th{
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+td:nth-child(1),th:nth-child(1){
+    background-color: rgb(118, 160, 237);
+}
+td:nth-child(2),th:nth-child(2){
+    background-color: rgb(77, 133, 236);
+}
+td:nth-child(3),th:nth-child(3){
+    background-color: rgb(17, 94, 236);
+}
+td:nth-child(4),th:nth-child(4){
+    background-color: rgb(16, 69, 168);
+}
